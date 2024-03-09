@@ -1,6 +1,6 @@
 <img alt="Logo.png" src="resources/Logo.png" style="display: block; margin: 0 auto"/>
 
-In this project you are tasked with developing the basis for a text based role playing game. 
+In this project you are tasked with developing the basis for a text-based role-playing game. 
 You'll be creating a hierarchy of classes which will ultimately become assets for your game. 
 
 Players should be able to choose between different character classes and then fight various 
@@ -14,9 +14,9 @@ number of stats as well, such as health points or attack power.
 Fork this repository and clone it to your local machine. Create a new branch named
   `develop` and switch to it.
 
-### Step 1: Set-up class hierarchies
+### Step 1: Set up class hierarchies
 
-<img alt="Hierarchy.jpg" height="354" src="resources/Hierarchy.jpg" width="600" style="display: block; margin: 0 auto"/>
+<img alt="Hierarchy.jpg" src="resources/Hierarchy.jpg" style="display: block; margin: 0 auto"/>
 
 You must implement the inheritance hierarchy displayed in the image above.<br>**Hint**: Remember 
 Use the correct inheritance keyword for each file type.
@@ -76,10 +76,10 @@ methods, and classes where you see fit.
 
 
 
-**Pro Tip**: Don't Repeat Yourself (DRY). Use inheritance to implement methods in parent 
+**Pro Tip**: Don't Repeat Yourself (DRY). Use inheritance to implement methods in the parent 
 classes and only override them where necessary.
 
-**Note**: Everytime a player or a monsters performs an action, you should print the action's
+**Note**: Every time a player or a monster performs an action, you should print the action's
 corresponding message in the terminal. For example, if a player uses a basic attack against a
 monster it could be:
 <br><br>Gholi attacked Dragon!<br>Dragon took 25 damage!
@@ -97,7 +97,7 @@ the player to fight. You should also design a menu for
 Here are a few ideas for a more complex combat system:
   - Allow users to create multiple characters and send all of them (as a party) to fight monsters.
   - Create new monster and character classes to diversify the combat encounters.
-  - Implement a dice rolling system (like a D20) to add some elements of randomness to fights.
+  - Implement a dice-rolling system (like a D20) to add some elements of randomness to fights.
   - Build a PvP game mode where two players can combat each other.
   You are in charge of designing the game using the available tools, so get creative!
 
