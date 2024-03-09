@@ -18,7 +18,7 @@ Fork this repository and clone it to your local machine. Create a new branch nam
 
 <img alt="Hierarchy.jpg" src="resources/Hierarchy.jpg" height="354" width="600" style="display:block; margin: 0 auto"/>
 
-You must implement the inheritance hierarchy displayed in the image above.<br>**Hint**: Remember 
+You must implement the inheritance hierarchy displayed in the image above.<br>**Hint**: Remember to 
 Use the correct inheritance keyword for each file type. `GameObject` is an interface while 
 `Monster` and `Player` are abstract classes.
 
@@ -60,7 +60,7 @@ methods, and classes where you see fit.
   - **Knight**: This character class focuses on damage reduction and blocking attacks. You must 
     define the unique attribute `armor`. Any damage the knight receives is reduced by the amount 
     of armor it has. <br>**Hint**: You must override the `takeDamage()` method and reduce the damage
-    done based on the knight's armor value.<br>Optional: The Knight can also use the 
+    done based on the knight's armor value.<be>(Optional) The Knight can also use the 
     ability to block incoming attacks, halving the damage received while blocking. You must 
     define the attribute `isBlocking` for this purpose.<br><br>
   - **Wizard**: (Optional) This character class focuses on casting spells to either damage 
@@ -70,7 +70,6 @@ methods, and classes where you see fit.
     the healing spell will heal a chosen player based on the spell's power. Casting the damaging 
     spell damages an enemy based on the spell's power. The wizard should not be able to cast 
     spells if it doesn't have enough mana.<br><br>
-
 
 
 **Pro Tip 1**: Don't Repeat Yourself (DRY). Use inheritance to implement methods in the parent 
@@ -116,7 +115,5 @@ You can add more attributes to the existing classes, such as experience points, 
 weapons, spells, merchants, etc. Defining more complex systems might require additional 
 interfaces and abstract classes.
 
-
-
-Have fun & good luck :)
+<be>Have fun & good luck :)
 
