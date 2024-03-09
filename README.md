@@ -16,7 +16,7 @@ Fork this repository and clone it to your local machine. Create a new branch nam
 
 ### Step 1: Set up class hierarchies
 
-<img alt="Hierarchy.jpg" src="resources/Hierarchy.png" style="display: block; margin: 0 auto"/>
+<img alt="Hierarchy.jpg" src="resources/Hierarchy.jpg" height="354" width="600" style="display:block; margin: 0 auto"/>
 
 You must implement the inheritance hierarchy displayed in the image above.<br>**Hint**: Remember 
 Use the correct inheritance keyword for each file type.
