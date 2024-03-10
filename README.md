@@ -42,10 +42,10 @@ methods, and classes where you see fit.
    You can add `isAlive` as an attribute to keep track of a monster's current state.<br><br>
 
   - **Goblin**: The Goblin class is the most basic enemy type encountered in the game. It has no
-    unique attributes or abilities. It can only deal damage to players  via basic attacks.<br><br>
+    unique attributes or abilities. It can only deal damage to players  via basic attacks.<br>
   - **Dragon**: The dragon monster class has the special ability to breathe fire. Using this 
     ability damages multiple players simultaneously. You must define a `fireDamage` attribute to 
-    determine the fire attack's damage.<br><br>
+    determine the fire attack's damage.<br>
   - **Skeleton**: The Skeleton class has the unique ability to revive itself after dying (only
     once), resetting its health back to the full amount. One method of implementing this would be 
     to create a `deathCount` attribute to keep track of its deaths. <br><br>
@@ -56,20 +56,20 @@ methods, and classes where you see fit.
   - **Assassin**: This character class is focused on stealth and dealing critical damage, it 
     has the unique attributes `isInvisible` and `criticalMultiplier`.<br>The 
     assassin has the ability to go invisible. Attacking while invisible breaks the invisibility 
-    but triggers a critical hit, dealing extra damage (attackPower * criticalMultiplier).<br><br>
+    but triggers a critical hit, dealing extra damage (attackPower * criticalMultiplier).<br>
   - **Knight**: This character class focuses on damage reduction and blocking attacks. You must 
     define the unique attribute `armor`. Any damage the knight receives is reduced by the amount 
     of armor it has. <br>**Hint**: You must override the `takeDamage()` method and reduce the damage
     done based on the knight's armor value.<be>(Optional) The Knight can also use the 
     ability to block incoming attacks, halving the damage received while blocking. You must 
-    define the attribute `isBlocking` for this purpose.<br><br>
+    define the attribute `isBlocking` for this purpose.<br>
   - **Wizard**: (Optional) This character class focuses on casting spells to either damage 
     enemies or heal allies. You must define the following unique attributes for it:
     `mana`, `healSpellPower`, `healSpellCost`, `damageSpellPower`, `damageSpellCost` <br>The 
     wizard can use mana to cast spells. Each spell has a mana cost and a power. Casting 
     the healing spell will heal a chosen player based on the spell's power. Casting the damaging 
     spell damages an enemy based on the spell's power. The wizard should not be able to cast 
-    spells if it doesn't have enough mana.<br><br>
+    spells if it doesn't have enough mana.<br>
 
 
 **Pro Tip 1**: Don't Repeat Yourself (DRY). Use inheritance to implement methods in the parent 
