@@ -69,7 +69,7 @@ methods, and classes where you see fit.
     wizard can use mana to cast spells. Each spell has a mana cost and a power. Casting 
     the healing spell will heal a chosen player based on the spell's power. Casting the damaging 
     spell damages an enemy based on the spell's power. The wizard should not be able to cast 
-    spells if it doesn't have enough mana.<br>
+    spells if it doesn't have enough mana.<br><br>
 
 
 **Pro Tip 1**: Don't Repeat Yourself (DRY). Use inheritance to implement methods in the parent 
